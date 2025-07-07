@@ -711,7 +711,6 @@ body {
     width: 16px;
     height: 16px;
     vertical-align: middle;
-    filter: brightness(0) invert(1);
 }
 
 /* Differentials Section */
@@ -924,8 +923,7 @@ body {
     }
     
     .timeline-marker {
-        left: 0.5625rem;
-        transform: translateX(-50%);
+        display: none;
     }
     
     .timeline-content {
